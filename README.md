@@ -74,17 +74,21 @@ de una baliza. Tomando como referencia la placa del estudio:
 | ESP32 del puente | 8,49 € |
 | Tres balizas autónomas | 195,45 € |
 | Raspberry Pi 5 Starter Kit (4 GB, 64 GB, fuente de 27 W) | 189,99 € |
-| **Coste conocido de la implementación mínima** | **393,93 €** |
+| LoRa + antena para la Raspberry Pi | 8,59 € |
+| 3G/4G LTE HAT Mini para la Raspberry Pi | 25,57 € |
+| **Coste conocido de la implementación mínima** | **428,09 €** |
 
 Este total supone que el puente dispone de alimentación y protección física en
 su ubicación. Si también debe funcionar como un equipo exterior autónomo,
 conviene asignarle el mismo kit completo de una baliza (65,15 €); en ese caso,
-el coste conocido de balizas, puente y Raspberry asciende a **450,59 €**.
+el coste conocido de balizas, puente y Raspberry asciende a **484,75 €**.
 
 La Raspberry Pi 5 se valora con el
 [Starter Kit de Amazon](https://amzn.eu/d/04FdHqNl), de 4 GB de RAM, 64 GB de
 almacenamiento y fuente de 27 W, por **189,99 €**. El precio puede cambiar y
-se toma como referencia de compra, no como una tarifa fija. El software
+se toma como referencia de compra, no como una tarifa fija. Se añade un
+[3G/4G LTE HAT Mini](https://es.aliexpress.com/item/1005007875411312.html)
+por **25,57 €** para proporcionar conectividad móvil a la Raspberry Pi. El software
 descrito (Docker, PostgreSQL, InfluxDB, Mosquitto, Telegraf, Grafana, Icinga y
 la aplicación) no añade licencias de pago. Tampoco se incluyen posibles costes
 recurrentes de Internet, Meteomatics, mapas o notificaciones, porque no están
@@ -93,9 +97,10 @@ valorados en las fuentes.
 ### Resultado y limitaciones
 
 El **coste mínimo conocido** para tres balizas, un puente alimentado por una
-instalación existente y la Raspberry Pi es **393,93 €**. Para una instalación
+instalación existente, la Raspberry Pi, el segundo set de LoRa y el HAT LTE es
+**428,09 €**. Para una instalación
 exterior completamente autónoma, incluyendo el kit completo para el puente,
-la referencia es **450,59 €**.
+la referencia es **484,75 €**.
 
 El estudio energético estima unos 31,24 mA por ESP32 y una autonomía real de
 aproximadamente dos o tres días con una placa de desarrollo y una batería
