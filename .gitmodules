@@ -1,0 +1,9 @@
+[submodule "crops-analyzer-module"]
+	path = crops-analyzer-module
+	url = https://github.com/Payasos-del-Goya/crops-analyzer-module
+[submodule "crops-analyzer-backend"]
+	path = crops-analyzer-backend
+	url = https://github.com/Payasos-del-Goya/crops-analyzer-backend
+[submodule "crops-analyzer-frontend"]
+	path = crops-analyzer-frontend
+	url = https://github.com/Payasos-del-Goya/crops-analyzer-frontend
