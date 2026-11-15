@@ -7,3 +7,6 @@
 [submodule "crops-analyzer-frontend"]
 	path = crops-analyzer-frontend
 	url = https://github.com/Payasos-del-Goya/crops-analyzer-frontend
+[submodule "crops-analyzer-infra"]
+	path = crops-analyzer-infra
+	url = https://github.com/Payasos-del-Goya/crops-analyzer-infra
