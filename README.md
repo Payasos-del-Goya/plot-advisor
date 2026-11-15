@@ -2,6 +2,20 @@
 
 Repositorio principal del proyecto **Plot Advisor**. Este repositorio funciona como contenedor de los submódulos donde vive cada parte de la solución.
 
+## Resumen
+
+Plot Advisor ayuda a agricultores a conocer mejor sus terrenos y a tomar decisiones sobre sus cultivos.
+Sus balizas con sensores recogen información del campo y del entorno para mostrar qué está ocurriendo en cada zona.
+Con estos datos, ofrece recomendaciones que facilitan la planificación y el seguimiento de las cosechas.
+
+## Resumen técnico
+
+**Plot Advisor** es una plataforma para monitorizar cultivos y ayudar a decidir qué plantar.
+Los nodos ESP32 recogen datos ambientales mediante sensores y los envían a una Raspberry Pi.
+La infraestructura almacena y visualiza las mediciones con MQTT, Telegraf, InfluxDB y Grafana.
+El backend procesa los datos, consulta información externa y genera predicciones y recomendaciones.
+El frontend ofrece un mapa y un panel web para consultar zonas, cultivos, balizas y resultados.
+
 ## Estructura del repositorio
 
 - `crops-analyzer-frontend`: interfaz de usuario del proyecto.
